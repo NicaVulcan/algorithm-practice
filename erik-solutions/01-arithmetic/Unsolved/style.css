@@ -1,0 +1,32 @@
+body {
+    background-color: #FAFAFA;
+}
+header,
+#mocha-stats,
+#mocha {
+    background-color: #FEFEFE;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    margin: 2rem auto;
+    width: 50%;
+    min-width: 400px;
+    max-width: 400px;
+    justify-content: center;
+}
+
+#mocha-stats{
+    flex-direction: row;
+    position: inherit;
+}
+header,
+#mocha {
+    flex-direction: column;
+    box-shadow: 0 .05rem .1rem 0 rgba(0,0,0,.3);
+    transition: box-shadow ease-in-out .2s;
+}
+
+header:hover,
+#mocha:hover {
+    box-shadow: .1rem .2rem .1rem 0 rgba(0,0,0,.3);   
+}
